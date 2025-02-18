@@ -1,4 +1,3 @@
-import { X } from "lucide";
 import React from "react";
 
 const ProductModal = ({ product, onClose }) => {
@@ -9,7 +8,7 @@ const ProductModal = ({ product, onClose }) => {
           className="absolute top-2 right-2 text-gray-600 hover:text-gray-800"
           onClick={onClose}
         >
-          <X />
+          ✖
         </button>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
